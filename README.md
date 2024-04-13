@@ -11,7 +11,7 @@ Flask se denomina marco "micro" porque no proporciona directamente funciones com
 ## Cómo usar Flask
 * Cree un entorno virtual para ejecutar aplicaciones Python
     * python -m venv venv
-* Active el entorno virtual "venv"
+* Active el entorno virtual "venv"; puede usar el nombre de su preferencia en vez de "venv".
     *  source ./venv/Scripts/activate
 * Instale Flask en el entorno virtual
     * python -m pip install flask
