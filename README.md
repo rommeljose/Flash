@@ -1,12 +1,12 @@
-# Flask
+<img  src=https://flask.palletsprojects.com/en/3.0.x/_images/flask-horizontal.png align="center" border="1" >
 
-Flask es un FrameWork liviano para Python; muy útil para desarrollar rápidamente aplicaciones web; proporciona los conceptos básicos para el enrutamiento de URL y la representación de páginas.
+[Flask](https://flask.palletsprojects.com/en/3.0.x/) es un FrameWork liviano para Python; muy útil para desarrollar rápidamente aplicaciones web; proporciona los conceptos básicos para el enrutamiento de URL y la representación de páginas.
 
-Con Flask es posible crear una aplicación simple de tres o más páginas que utilicen una plantilla base común 1. A lo largo del camino, experimentando una serie de características de Visual Studio Code 2; como el uso de la terminal, el editor, el depurador, fragmentos de código y más.
+Con Flask es posible crear una aplicación simple de tres o más páginas que utilicen una plantilla base común [1]. A lo largo del camino, experimentando una serie de características de Visual Studio Code [2]; como el uso de la terminal, el editor, el depurador, fragmentos de código y más.
 
 ## Extensiones de Flask
 
-Flask se denomina marco "micro" porque no proporciona directamente funciones como validación de formularios, abstracción de bases de datos, autenticación, etc. En cambio, estas características las proporcionan paquetes especiales de Python llamados extensiones Flask. Las extensiones se integran perfectamente con Flask para que parezcan parte del propio Flask. Por ejemplo, Flask no proporciona un motor de plantillas de páginas, pero la instalación de Flask incluye el motor de plantillas Jinja de forma predeterminada. Por conveniencia, normalmente hablamos de estos valores predeterminados como parte de Flask.
+[Flask](https://flask.palletsprojects.com/en/3.0.x/) se denomina marco "micro" porque no proporciona directamente funciones como validación de formularios, abstracción de bases de datos, autenticación, etc. En cambio, estas características las proporcionan paquetes especiales de Python llamados extensiones Flask. Las extensiones se integran perfectamente con Flask para que parezcan parte del propio Flask. Por ejemplo, Flask no proporciona un motor de plantillas de páginas, pero la instalación de Flask incluye el motor de plantillas Jinja de forma predeterminada. Por conveniencia, normalmente hablamos de estos valores predeterminados como parte de Flask.
 
 ## Cómo usar Flask
 * Cree un entorno virtual para ejecutar aplicaciones Python
@@ -47,3 +47,9 @@ Ahora se tiene un ambiente autónomo listo para escribir código Flask.
 #### Notas: 
 * Se debe de instalar "Flask" desde el entorno virtual activado, usando la cónsola: `python -m pip install flask`. Pero primero se debe de crear la "WEB APPLICATIONS", para que se cree el entorno virtual y luego trabajar en él.
 * Cada vez que se crea una "WEB APPLICATIONS" usando la utilidad "Setup Python App", se crea o actualiza el archivo *passenger.log*; por lo tanto es recomendable revisar para corregir cualquier cambio.
+
+Rommel Contreras (abril de 2024)
+
+[1]: https://github.com/microsoft/python-sample-vscode-flask-tutorial "El proyecto de código completo de un tutorial de Flask se puede encontrar en GitHub: python-sample-vscode-flask-tutorial"
+
+[2]: https://code.visualstudio.com/docs/python/tutorial-flask "Código de Visual Estudio"
