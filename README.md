@@ -33,12 +33,14 @@ Ahora se tiene un ambiente autónomo listo para escribir código Flask.
     * Punto de entrada de la aplicación. Configure el objeto invocable wsgi para su aplicación. Esto si se deja en blanco, es rellenado por godaddy con: *application*
  * Passenger log file
     * Archivo de registro de eventos. No es necesario completar; ver documentación si se require. Nota: Puede definir la ruta junto con el nombre del archivo (por ejemplo, /home/iu4gg8fd7roq/logs/passenger.log).
-    * Inicialmente Godaddy crea el archivo *passenger.log* con algún contenido, el cual debe de borrarse y sustituir -unicamente- por: `from hello_app.views_test import app as application`. Donde *hello_app* es el directorio donde se encuentra el archivo python principal de la aplicacion *views_test.py*.
+    * Inicialmente Godaddy crea el archivo *passenger.log* con algún contenido, el cual debe de borrarse y sustituir -unicamente- por: `from hello_app.views_test import app as application`. Donde *hello_app* es el directorio donde se encuentra el archivo python principal de la aplicacion *views_test.py*. Este archivo se puede actualizar, si se hace una actualización o se clona la aplicación desde GitHub.
  * Configuration files
     * Archivo de configuración para los requerimientos de la aplicación. Normalmente: *requirements.txt*. Una vez adicionado se debe de bajar la pestaña que dice "Run pip Install" para que se instale el contenido descrito por el archivo en el entorno. El contenido de este archivo también se puede instalar o verificar manualmente desde la cónsola.
         * Primero entrando al entorno virtual (con el comando proporcionado por la misma herramienta *Setup Python App* al inicio de la ventana).
-        * Ejecutando el instalador *pip* para el contenido del archivo *requirements.txt*: `pip install check-requirements-txt
+        * Ejecutando el instalador *pip* para el contenido del archivo *requirements.txt*: `pip install check-requirements-txt`
  * Execute python script
     * Comando para ejecutar (por ejemplo, /path/to/manage.py migrar). 
  * Environment variables
     * Variables de entornos. Muy útiles para proteger data sensible.
+  
+#### Notas: Cada vez que se crea una "WEB APPLICATIONS" usando la utilidad "Setup Python App", se crea o actualiza el archivo *passenger.log*; por lo tanto es recomendable revisar para corregir cualquier cambio.
