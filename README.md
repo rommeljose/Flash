@@ -8,8 +8,8 @@ Con Flask es posible crear una aplicación simple de tres o más páginas que ut
 
 [Flask](https://flask.palletsprojects.com/en/3.0.x/) se denomina marco "micro" porque no proporciona directamente funciones como validación de formularios, abstracción de bases de datos, autenticación, etc. En cambio, estas características las proporcionan paquetes especiales de Python llamados extensiones Flask. Las extensiones se integran perfectamente con Flask para que parezcan parte del propio Flask. Por ejemplo, Flask no proporciona un motor de plantillas de páginas, pero la instalación de Flask incluye el motor de plantillas Jinja de forma predeterminada. Por conveniencia, normalmente hablamos de estos valores predeterminados como parte de Flask.
 
-## Cómo usar Flask
-* Cree un entorno virtual para ejecutar aplicaciones Python
+## Cómo usar Flask en Linux (por ejemplo *Ubuntu*)
+* Cree un entorno virtual para ejecutar aplicaciones Python (ver notas)
     * python -m venv venv
 * Active el entorno virtual "venv"; puede usar el nombre de su preferencia en vez de "venv".
     *  source ./venv/Scripts/activate
@@ -47,6 +47,19 @@ Ahora se tiene un ambiente autónomo listo para escribir código Flask.
 #### Notas: 
 * Se debe de instalar "Flask" desde el entorno virtual activado, usando la cónsola: `python -m pip install flask`. Pero primero se debe de crear la "WEB APPLICATIONS", para que se cree el entorno virtual y luego trabajar en él.
 * Cada vez que se crea una "WEB APPLICATIONS" usando la utilidad "Setup Python App", se crea o actualiza el archivo *passenger.log*; por lo tanto es recomendable revisar para corregir cualquier cambio.
+* Se puede crear el entorno virtual manualmente y comenzar a trabajar a partir de eso (en este caso instalado en cgi-bin; pero puede ser donde prefiera):
+
+   * Instale en python la librería para entorno virtual; en Godaddy ya está instalada por defecto.
+      * $ python3 -m pip install virtualenv
+   * *Navegue al directorio *CGI-BIN*, que debe de estar debajo de *public_html**
+      * $ cd $home
+      * $ cd public_html/cgi-bin
+   * Cree el entorno virtual *venv*, puede ser el nombre de su preferencia.
+      * $ virtualenv venv
+   * Active en entorno virtual
+      * $ source venv/bin/activate
+      * $ pip install Flask
+      * $ deactivate
 
 Rommel Contreras (abril de 2024)
 
