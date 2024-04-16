@@ -18,7 +18,7 @@ Con Flask es posible crear una aplicación simple de tres o más páginas que ut
 
 Ahora se tiene un ambiente autónomo listo para escribir código Flask. 
 
-    Revise el: [Tutorial de para usar Flask en Visual Code](https://code.visualstudio.com/docs/python/tutorial-flask)
+   Revise el: [Tutorial de para usar Flask en Visual Code](https://code.visualstudio.com/docs/python/tutorial-flask)
 
 ## Flask en Godaddy
  [cPanel](https://www.godaddy.com/es/help/consultar-el-panel-de-control-para-mi-cuenta-de-hosting-de-linux-8884) es una plataforma que permite administrar sitios web que se encuentran dentro de un hosting.  [Godaddy](https://www.godaddy.com) usa esta herramienta para facilitar las aplicaciones instaladas. En el caso de una aplicación Python, cPanel tiene una utilidad llamada: **"Setup Python App"**; que presenta algunos campos para configurar.
