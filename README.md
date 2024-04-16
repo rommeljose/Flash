@@ -43,4 +43,7 @@ Ahora se tiene un ambiente autónomo listo para escribir código Flask.
  * Environment variables
     * Variables de entornos. Muy útiles para proteger data sensible.
   
-#### Notas: Cada vez que se crea una "WEB APPLICATIONS" usando la utilidad "Setup Python App", se crea o actualiza el archivo *passenger.log*; por lo tanto es recomendable revisar para corregir cualquier cambio.
+  
+#### Notas: 
+* Se debe de instalar "Flask" desde el entorno virtual activado, usando la cónsola: `python -m pip install flask`. Pero primero se debe de crear la "WEB APPLICATIONS", para que se cree el entorno virtual y luego trabajar en él.
+* Cada vez que se crea una "WEB APPLICATIONS" usando la utilidad "Setup Python App", se crea o actualiza el archivo *passenger.log*; por lo tanto es recomendable revisar para corregir cualquier cambio.
