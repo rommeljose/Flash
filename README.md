@@ -66,3 +66,10 @@ Rommel Contreras (abril de 2024)
 [1]: https://github.com/microsoft/python-sample-vscode-flask-tutorial "El proyecto de código completo de un tutorial de Flask se puede encontrar en GitHub: python-sample-vscode-flask-tutorial"
 
 [2]: https://code.visualstudio.com/docs/python/tutorial-flask "Código de Visual Estudio"
+
+### Referencias:
+* [Get your Flask Python app live on Cpanel](https://medium.datadriveninvestor.com/installing-python-3-10-and-flask-on-godaddy-updated-ebe764ab78a7)
+* [Setting Up a Simple Flask App on GoDaddy](https://github.com/nicholasvad/flask_on_godaddy)
+* [Setting GoDaddy hosted site to use Python3/Flask](https://benincampus.blogspot.com/2020/09/setting-godaddy-hosted-site-to-use.html)
+* [How to install and configure Python on a hosted server](https://www.godaddy.com/resources/skills/how-to-install-and-configure-python-on-a-hosted-server)
+
